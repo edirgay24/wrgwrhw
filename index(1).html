@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validar declaração evento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topo">
+      <img class="logo-infoscip" src="images/infoscip_logo.svg" alt="INFOSCIP" />
+      <div class="titulo-topo">Validar declaração evento</div>
+      <img class="brasao" src="images/bombeiros_mg_logo.svg" alt="Corpo de Bombeiros Militar de Minas Gerais" />
+    </header>
+
+    <div class="faixa-azul"></div>
+
+    <div class="barra-acoes">
+      <div class="acoes">
+        <a href="#" class="botao-img"><img src="images/btn-continuar.png" alt="Continuar" /></a>
+        <a href="#" class="botao-img"><img src="images/btn-fechar.png" alt="Fechar" /></a>
+        <a href="#" class="botao-img ajuda"><img src="images/btn-ajuda.png" alt="Ajuda" /></a>
+      </div>
+    </div>
+
+    <section class="barra-titulo">Validar Declaração de Evento</section>
+
+    <main class="conteudo">
+      <form>
+        <div class="grupo grupo-numero">
+          <label for="numero">Número da Declaração</label>
+          <div class="linha-campo">
+            <input id="numero" type="text" value="2026RM03322" />
+            <span class="obrigatorio">*</span>
+          </div>
+        </div>
+
+        <div class="grupo grupo-chave">
+          <label for="chave">Chave de Autenticação</label>
+          <div class="linha-campo">
+            <input id="chave" type="text" value="7CE7-A481-2F18-C819" />
+            <span class="obrigatorio">*</span>
+          </div>
+        </div>
+
+        <div class="captcha-area">
+          <div class="texto-captcha">Digite os caracteres que aparecem na figura<br />abaixo:</div>
+          <input class="campo-captcha" type="text" />
+          <img class="captcha" src="images/captcha_m43by.svg" alt="captcha" />
+        </div>
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <img class="logo-prodemge" src="images/prodemge_logo.svg" alt="tecnologia prodemge" />
+      <div class="versao">INFOSCIP - Versão 15.05.12</div>
+    </footer>
+  </div>
+</body>
+</html>
